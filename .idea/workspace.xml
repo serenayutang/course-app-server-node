@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="881888ff-8cae-4d78-89d3-de6f9f6f71ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/question-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/question-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/quizzes-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/quizzes-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/questions-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/questions-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/quiz-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/quiz-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -55,6 +73,8 @@
       <workItem from="1617739728733" duration="2344000" />
       <workItem from="1617761630247" duration="330000" />
       <workItem from="1617763810331" duration="7000" />
+      <workItem from="1618026553419" duration="314000" />
+      <workItem from="1618169524303" duration="7996000" />
     </task>
     <servers />
   </component>

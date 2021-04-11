@@ -1,14 +1,17 @@
-const quizzes = require('./quizzes.json')
+// const quizzes = require('./quizzes.json')
+const quizzesModel = require("../db/quizzes/quizzes-model")
 
 //Node js
 const findAllQuizzes = () => {
-    return quizzes
+    // return quizzes
+    return quizzesModel.find()
 }
 
 const findQuizById = (quizId) => {
-    return quizzes.find((quiz) => {
-        return quiz._id === quizId
-    })
+    // return quizzes.find((quiz) => {
+    //     return quiz._id === quizId
+    // })
+    return quizzesModel.findById(quizId).populate("questions").exec()
 }
 
 // const QUIZZES_URL = 'http://localhost:3000/api/quizzes';

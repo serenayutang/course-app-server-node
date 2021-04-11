@@ -1,20 +1,22 @@
-let questions = require('./question.json')
+// const questions = require('./question.json')
+const questionsModel = require("../db/questions/questions-model")
 
 const findAllQuestions = () => {
-    return questions
+    // return questions
+    return questionsModel.find()
 }
 
-const findQuestionsForQuiz = (qzid) => {
+const findQuestionsForQuiz = (quizId) => {
     // questions.filter(question => question.quizId === quizId)
-    return questions.filter((question) => {
-        return question.quizId === qzid;
-    })
+    // return questions.filter((question) => {return question.quizId === qzid;})
+    return questionsModel.find({quizId: quizId})
 }
 
-const findQuestionById = (qid) => {
-    return questions.find((question) => {
-        return question._id === qid;
-    })
+const findQuestionById = (quid) => {
+    // return questions.find((question) => {
+    //     return question._id === quid;
+    // })
+    return questionsModel.findById(quid)
 }
 
 // const QUIZZES_URL = 'http://localhost:3000/api/quizzes';
