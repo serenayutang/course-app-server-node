@@ -1,6 +1,9 @@
+require('dotenv').config();
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
+
+const uri = process.env.MONGODB_URI;
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -9,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true});
 
 //configure CORS
 app.use(function (req, res, next) {
@@ -32,5 +35,5 @@ require("./controllers/quizzes-controller")(app)
 require("./controllers/question-controller")(app)
 require('./controllers/quiz-attempts-controller')(app)
 
-app.listen(4000)
+app.listen(process.env.PORT || 4000)
 console.log("Your node server is running!")
