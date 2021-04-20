@@ -1,5 +1,12 @@
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser')
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+
+// parse application/json
+app.use(bodyParser.json())
 
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
@@ -23,5 +30,7 @@ demo(app)
 
 require("./controllers/quizzes-controller")(app)
 require("./controllers/question-controller")(app)
+require('./controllers/quiz-attempts-controller')(app)
 
 app.listen(4000)
+console.log("Your node server is running!")

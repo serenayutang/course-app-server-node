@@ -1,22 +1,25 @@
 // const questions = require('./question.json')
-const questionsModel = require("../db/questions/questions-model")
+// const questionsModel = require("../db/questions/questions-model")
+const questionsDao = require('../daos/questions-daos')
 
 const findAllQuestions = () => {
     // return questions
-    return questionsModel.find()
+    // return questionsModel.find()
+    return questionsDao.findAllQuestions();
 }
 
 const findQuestionsForQuiz = (quizId) => {
     // questions.filter(question => question.quizId === quizId)
     // return questions.filter((question) => {return question.quizId === qzid;})
-    return questionsModel.find({quizId: quizId})
+    return questionsDao.findQuestionsForQuiz(quizId);
 }
 
-const findQuestionById = (quid) => {
+const findQuestionById = (questionId) => {
     // return questions.find((question) => {
     //     return question._id === quid;
     // })
-    return questionsModel.findById(quid)
+    // return questionsModel.findById(quid)
+    return questionsDao.findQuestionsById(questionId);
 }
 
 // const QUIZZES_URL = 'http://localhost:3000/api/quizzes';
@@ -28,19 +31,8 @@ const findQuestionById = (quid) => {
 //     findQuestionsForQuiz
 // }
 
-const createQuestion = () => {}
-const createQuestionForQuiz = () => {}
-
-
-const updateQuestion = () => {}
-const deleteQuestion = () => {}
-
 module.exports = {
-    findQuestionsForQuiz,
-    createQuestion,
-    createQuestionForQuiz,
     findAllQuestions,
-    findQuestionById,
-    updateQuestion,
-    deleteQuestion
+    findQuestionsForQuiz,
+    findQuestionById
 }
