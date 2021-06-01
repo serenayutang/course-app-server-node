@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="881888ff-8cae-4d78-89d3-de6f9f6f71ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-4-9095912099562128128.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-4-9095912099562128128.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2021-04-20T03-31-40Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/diagnostic.data/metrics.2021-04-20T03-31-40Z-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.interim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-5-9095912099562128128.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-5-9095912099562128128.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-6-9095912099562128128.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-6-9095912099562128128.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000003" beforeDir="false" afterPath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000003" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +80,9 @@
       <workItem from="1618351116454" duration="1053000" />
       <workItem from="1618354194184" duration="162000" />
       <workItem from="1618462490096" duration="53000" />
-      <workItem from="1618792623967" duration="16388000" />
+      <workItem from="1618792623967" duration="17180000" />
+      <workItem from="1619036014088" duration="331000" />
+      <workItem from="1622520202018" duration="1219000" />
     </task>
     <servers />
   </component>
